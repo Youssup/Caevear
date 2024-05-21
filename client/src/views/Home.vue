@@ -85,7 +85,7 @@ import { ref } from 'vue';
 }
 
 .Info {
-    margin-left: 108rem;
+    margin-left: 392px;
     color: black;
     font-family: "Montserrat", Sans-serif;
     font-size: 12px;
@@ -95,7 +95,7 @@ import { ref } from 'vue';
 }
 
 .Redirect {
-    margin-left: 108rem;
+    margin-left: 392px;
     color: black;
     font-family: "Montserrat", Sans-serif;
     font-size: 14px;
