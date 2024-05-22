@@ -5,24 +5,25 @@ import signiture from './icons/signature.png';
 
 <template>
     <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div id="navbarBasicExample" class="navbar-menu">
-            <div class="navbar-start">
-                <router-link to="/">
-                    <img href="/" class="signiture" :src="signiture" alt="Signature" />
-                </router-link>
-            </div>
+        <div class="navbar-start">
+            <router-link to="/">
+                <img :src="signiture" class="signiture" alt="Signature">
+            </router-link>
         </div>
     </nav>
 </template>
 
-<style scoped>
-.navbar {
-    background-color: white;
-}
 
+<style scoped>
 .signiture {
     margin-top: 20px;
     margin-left: 40px;
-    width: 180px;
+    width: 60%;
+}
+
+@media screen and (max-width: 768px) {
+    .signiture {
+        width: 30%;
+    }
 }
 </style>
